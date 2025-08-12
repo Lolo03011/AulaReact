@@ -9,7 +9,7 @@
             </p>
 
             <p>
-                <img src="" alt="" />
+                <img src="/MG.png" alt="" />
             </p>
 
             <p>
@@ -17,6 +17,6 @@
                 
             </p>
         </div>
-    )
+    );
 }
  
