@@ -2,7 +2,7 @@ export default function Amapa()
 {
     return(
         <div>
-            <h1>Seja bem vindo ao Amapa</h1>
+            <h1>Seja bem vindo ao Estado do Amapa</h1>
 
             <p>
             O Amapá fica na Região Norte do Brasil, com grande parte de seu território coberto pela Floresta Amazônica. É conhecido pela biodiversidade e pelo Parque Nacional do Tumucumaque, uma das maiores áreas protegidas do país. A capital é Macapá, única cidade brasileira cortada pela linha do Equador.

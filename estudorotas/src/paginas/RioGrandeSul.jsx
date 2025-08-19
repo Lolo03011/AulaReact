@@ -2,7 +2,7 @@ export default function RioGrandeSul()
 {
     return(
         <div>
-            <h1>Seja bem vindo ao Rio Grande Do Sul</h1>
+            <h1>Seja bem vindo ao Estado do Rio Grande Do Sul</h1>
 
             <p>
             Rio Grande do Sul é o estado mais ao sul do Brasil, conhecido pela cultura gaúcha, chimarrão e churrasco. Tem economia forte na agricultura e indústria. Destaca-se pelo turismo na Serra Gaúcha e belas paisagens naturais.

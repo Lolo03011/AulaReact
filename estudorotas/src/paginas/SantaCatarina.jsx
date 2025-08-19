@@ -2,7 +2,7 @@ export default function SantaCatarina()
 {
     return(
         <div>
-            <h1>Seja bem vindo a Santa Catarina</h1>
+            <h1>Seja bem vindo ao Estado de Santa Catarina</h1>
 
             <p>
             Santa Catarina é um estado do Sul do Brasil famoso pelas praias, pela indústria têxtil e pela forte influência da colonização alemã e italiana. Destaca-se pelo turismo em cidades como Florianópolis e Blumenau. Também possui belas áreas naturais, como a Serra do Mar e parques nacionais.
