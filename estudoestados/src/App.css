@@ -1,0 +1,48 @@
+body
+{
+    margin : 0;
+    padding: 0;
+    background-color: #4169E1;
+}
+
+h1
+{
+    background-color:#00008B;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo
+{
+    background-color:#87CEFA;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+
+.conteudo
+{
+    color: rgb(214, 228, 255);
+    text-decoration: none;
+}
+
+input[type=text]
+{
+ box-sizing: border-box;
+  width: 40%;
+  padding: 5px;
+  font-size: 20px;
+}
+
+input[type=button]
+{
+  width: 200px;
+  padding: 5px;
+  font-size: 20px;
+}
