@@ -30,7 +30,7 @@ export default function Exercicio7()
        </p>
 
        <p>
-        <a href="/">Voltar</a>
+        <a href="/">Voltar←</a>
        </p>
 </form>
 </div>

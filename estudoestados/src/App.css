@@ -7,7 +7,7 @@ body
 
 h1
 {
-    background-color:#8A2BE2;
+    background: radial-gradient(circle,rgba(245, 63, 251, 1) 0%, rgba(167, 70, 252, 1) 100%);
     color: white;
     margin: 0;
     padding: 20px;

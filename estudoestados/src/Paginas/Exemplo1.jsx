@@ -45,7 +45,7 @@ export default function Exemplo1() {
         </p>
 
         <p>
-          <a href="/">Voltar</a>
+          <a href="/">Voltar←</a>
         </p>
        </from>
      </div>
