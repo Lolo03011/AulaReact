@@ -4,16 +4,17 @@ export default function Exercicio4()
 {
 
 
-const[numero, setNumero] = useState(0);
+const[base, setBase] = useState(0);
+const[altura, setAltura] = useState(0); 
 const[resultado, setResultado] = useState(0); 
+
 function calcular()
 {
- let quadrado, cubo;
+ let areatriangulo;
 
- quadrado = Number(numero) * Number(numero);
- cubo = Number(numero) * Number(numero) * Number(numero);
+ areatriangulo= (Number(base)*Number(altura)/2);
 
- setResultado("Quadrado: " + quadrado + " - Cubo: " + cubo);
+ setResultado("Valor da área do Triângulo: " + areatriangulo);
 }
     return(
         <div>
@@ -27,14 +28,14 @@ function calcular()
         <form>
        <p>
         Digite o valor da base: <br />
-         <input type="text" value={numero} 
-           onChange={(e) => setNumero(e.target.value)}/>
+         <input type="text" value={base} 
+           onChange={(e) => setBase(e.target.value)}/>
        </p>
 
        <p>
         Digite o valor da altura: <br />
-         <input type="text"  value={numero} 
-           onChange={(e) => setNumero(e.target.value)} />
+         <input type="text"  value={altura} 
+           onChange={(e) => setAltura(e.target.value)} />
        </p>
 
        <p>
@@ -44,8 +45,9 @@ function calcular()
        <p>
                 <b>Resultado</b>
                  <br/>
-                 Número é {numero} <br/>
-                 Resultado é {resultado}
+                 valor da base {base} <br/>
+                 valor da altura {altura}  <br/>
+                 {resultado}
                 </p>
 
         <p>
